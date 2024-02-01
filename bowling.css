@@ -2,6 +2,7 @@
     font-family: 'AnandaBlack';
     src:url(./assets/fonts/AnandaBlack.ttf)
 }
+
 body {
     margin: 0;
     padding: 0;
@@ -9,9 +10,9 @@ body {
 }
 
 header {
-    background-color: #87CEEB; /* Bleu clair */
+    background-color: #87CEEB;
     color: #fff;
-    padding: 10px 20px; /* Ajout de marges en haut et à droite */
+    padding: 10px 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -19,18 +20,20 @@ header {
 span{
     color: white;
 }
+
 .background-container {
-    background-image: url('./assets/images/bowling_field.jpg'); /* Remplacez par le chemin de votre image */
+    background-image: url('./assets/images/bowling_field.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 50vh; /* Ajuste la hauteur de la div à la hauteur de la fenêtre du navigateur */
+    height: 50vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
+
 .overlay-cell {
-    background-color: rgba(87, 82, 82, 0.7); /* Couleur de fond légèrement transparente */
+    background-color: rgba(87, 82, 82, 0.7);
     padding: 20px;
     border-radius: 10px;
     text-align: center;
@@ -41,15 +44,15 @@ span{
 }
 
 .logo {
-    margin-right: 50px; /* Ajout d'une marge après le logo */
-    margin-left: 100px; /* Ajout d'une marge avant le logo */
+    margin-right: 50px;
+    margin-left: 100px;
     font-size: 24px;
     font-weight: bold;
     font-family: 'AnandaBlack';   
 }
 
 .menu {
-    margin-right: 100px; /* Ajout d'une marge après le menu */
+    margin-right: 100px;
 }
 
 .menu a {
@@ -61,4 +64,56 @@ span{
 .page-image {
     width: 100%;
     display: block;
+}
+
+#offre {
+    max-width: 600px;
+    text-align: center;
+    margin:auto   
+}
+
+.listbox {
+    text-align: center;
+}
+
+.list {
+    list-style: none; 
+    padding: 0; 
+    display: flex; 
+    justify-content: center; 
+}
+
+li {
+    display: flex; 
+    align-items: center; 
+    margin-right: 20px; 
+    text-align: center; 
+    flex-direction: column;
+    background-color: #FFFF00;
+    color: #fff;
+    width: 250px;
+    height: 200px;
+    justify-content: center;
+}
+
+img {
+    max-width: 50px; 
+    margin-right: 10px; 
+}
+
+#bleu {
+    background-color: #87CEEB; 
+}
+
+#rose {
+    background-color: #FFC0CB; 
+}
+
+.jaune {
+    background-color: #FFFF00;
+}
+
+#gras {
+    font-weight: bold;
+    text-decoration: underline;
 }
