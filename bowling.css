@@ -1,3 +1,7 @@
+@font-face {
+    font-family: 'AnandaBlack';
+    src:url(./assets/fonts/AnandaBlack.ttf)
+}
 body {
     margin: 0;
     padding: 0;
@@ -12,13 +16,36 @@ header {
     justify-content: space-between;
     align-items: center;
 }
+span{
+    color: white;
+}
+.background-container {
+    background-image: url('./assets/images/bowling_field.jpg'); /* Remplacez par le chemin de votre image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 50vh; /* Ajuste la hauteur de la div à la hauteur de la fenêtre du navigateur */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.overlay-cell {
+    background-color: rgba(87, 82, 82, 0.7); /* Couleur de fond légèrement transparente */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);           
+}
 
 .logo {
     margin-right: 50px; /* Ajout d'une marge après le logo */
     margin-left: 100px; /* Ajout d'une marge avant le logo */
     font-size: 24px;
     font-weight: bold;
-    
+    font-family: 'AnandaBlack';   
 }
 
 .menu {
