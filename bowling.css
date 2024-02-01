@@ -30,3 +30,8 @@ header {
     text-decoration: none;
     margin: 0 15px;
 }
+
+.page-image {
+    width: 100%;
+    display: block;
+}
