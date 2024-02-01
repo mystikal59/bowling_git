@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #87CEEB; /* Bleu clair */
+    color: #fff;
+    padding: 10px 20px; /* Ajout de marges en haut et à droite */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    margin-right: 50px; /* Ajout d'une marge après le logo */
+    margin-left: 100px; /* Ajout d'une marge avant le logo */
+    font-size: 24px;
+    font-weight: bold;
+    
+}
+
+.menu {
+    margin-right: 100px; /* Ajout d'une marge après le menu */
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+}
